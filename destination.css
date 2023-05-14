@@ -1,0 +1,93 @@
+body{
+    background-image: url(assets/destination/background-destination-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Estilo de Mars*/
+
+.div__mars{
+    display:none;
+}
+
+/* Estilo de Moon */
+
+.div__moon{
+    display:block;
+}
+
+/* Estilo de Europa */
+
+.div__europa{
+    display:none;
+}
+
+/*Estilo de Titan*/
+
+.div__titan{
+    display: none;
+}
+main{
+    margin-top: 90px;
+}
+
+main > h1{
+    position: absolute;
+    left:10%;
+    top: 20%;
+} 
+.div__img{
+    min-width: 55%;
+    display: inline-block;
+}
+.div__img > img{
+    display: block;
+    margin:auto;
+    width: 400px;
+}
+.div__info{
+    float: right;
+    width: 44%;
+}
+.div__button {
+    position: absolute;
+    top: 29%;
+    right: 27%;
+    
+}
+.div__button > button{
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+.div__info > h2{
+    margin: 0 ;
+    font-size: 6em;
+}
+.div__info > p {
+    padding:30px 30px 30px 0 ;
+    text-align: justify;
+    line-height: 1.5em;
+    width:66%;
+}
+.div__info > .line{
+    width: 66%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.313);
+    margin: 15px 0 30px 0;
+}
+.div__info > .info-date{
+    width: 40%;
+    display: inline-block;
+}
+.div__info > .info-km{
+    display: inline-block;
+    width: 40%;
+}
+.kmMes{
+    padding-top: 5px;
+    font-size: 2em;
+}

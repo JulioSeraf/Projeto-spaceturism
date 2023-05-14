@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+    background-image: url(assets/home/background-home-desktop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    min-height: 20vh;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: right;
+    margin: 30px;
+    width: 55%;
+    min-width: 600px;
+    height: 60px;
+    backdrop-filter:blur(6px);
+    background-color: rgba(128, 128, 128, 0.084);
+    /* background-color: rgba(128, 128, 128, 0.379); */
+}
+nav > a{
+    text-align: center;
+    min-width: 20%;
+    margin: auto 10px;
+    padding: 20px 0;
+    color: hsla(0, 0%, 100%, 0.632);
+    justify-items: space-between;
+    text-decoration: none;
+}
+nav a:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+nav a > strong{
+    color: white;
+}
+.boloDinamic{
+    display: flex;
+    position:absolute;
+    width: 50%;
+    min-width: 10px;
+    height:17vh;
+}
+#bola{
+    position: absolute;
+    top:30px;
+    left: 40px;
+    z-index: 1;
+}
+#line{
+    background-color: hsla(0, 0%, 100%, 0.30);
+    width: 30vw;
+    height: 1px;
+    margin: auto;
+}
+main{
+    display: flex;
+    /* flex-wrap: wrap; */
+    min-height: 80vh;
+}
+.div__space{
+    margin: auto;
+    min-width: 60%;
+    min-width: 370px;
+}
+.space{
+    width:380px;
+    margin: auto;
+    padding:40px;
+    text-align: justify;
+}
+.space >h1{
+    font-size: 7.5em;
+    padding: 20px 0 30px 0;
+
+}
+.space > h2, .space > p{
+    color: rgba(255, 255, 255, 0.614);
+}
+.div__explore{
+    position: relative;
+    width:40%;
+}
+.explore{
+    position: absolute;
+    display: flex;
+    background-color: white;
+    color: black;
+    left: 25%;
+    top: 40%;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: none;
+}
+.explore > p{
+    margin: auto;
+    font-size: 2.5em;
+}
