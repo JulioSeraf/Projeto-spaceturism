@@ -4,7 +4,7 @@
 }
 body{
     min-height: 100vh;
-    min-width: 100vw;
+    width: 100vw;
     color: white;
     background-image: url(assets/home/background-home-desktop.jpg);
     background-size: cover;
@@ -12,7 +12,7 @@ body{
     background-repeat: no-repeat;
 }
 header{
-    width: 100%;
+    min-width: 100vw;
     min-height: 20vh;
 }
 nav{
@@ -26,7 +26,7 @@ nav{
     height: 60px;
     backdrop-filter:blur(6px);
     background-color: rgba(128, 128, 128, 0.084);
-    /* background-color: rgba(128, 128, 128, 0.379); */
+    
 }
 nav > a{
     text-align: center;
@@ -64,19 +64,22 @@ nav a > strong{
     margin: auto;
 }
 main{
-    display: flex;
-    /* flex-wrap: wrap; */
-    min-height: 80vh;
+    width:99vw;
+    min-height: 76vh;
 }
 .div__space{
-    margin: auto;
-    min-width: 60%;
+    position: relative;
+    display: inline-block;
+    width: 60vw;
     min-width: 370px;
+    height: 76vh;
 }
 .space{
+    position: absolute;
+    left: 25%;
+    top: 20%;
     width:380px;
     margin: auto;
-    padding:40px;
     text-align: justify;
 }
 .space >h1{
@@ -89,15 +92,17 @@ main{
 }
 .div__explore{
     position: relative;
-    width:40%;
+    float: right;
+    width:39%;
+    height: 76vh;
 }
 .explore{
     position: absolute;
+    top: 45%;
+    left: 30%;
     display: flex;
     background-color: white;
     color: black;
-    left: 25%;
-    top: 40%;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -106,4 +111,13 @@ main{
 .explore > p{
     margin: auto;
     font-size: 2.5em;
+}
+footer{
+    text-align: center;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.358);
+}
+footer a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }

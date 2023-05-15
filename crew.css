@@ -1,16 +1,28 @@
+/* diplay comander */
+
 .div__crew-comander{
     display: block;
 }
+
+/*Display Engineer*/
+
 .div__crew-engineer{
     display: none;
 }
 
+/*Display Pilot*/
+
 .div__crew-pilot{
     display: none;
 }
+
+/*Display Specialist*/
+
 .div__crew-specialist{
     display: none;
 }
+
+/*-------------------------Configuracion Geral----------------------------------------*/
 body{
     background-image: url(assets/crew/background-crew-desktop.jpg);
     background-size: cover;
