@@ -1,13 +1,13 @@
 /* diplay comander */
 
 .div__crew-comander{
-    display: block;
+    display:none;
 }
 
 /*Display Engineer*/
 
 .div__crew-engineer{
-    display: none;
+    display: block;
 }
 
 /*Display Pilot*/
@@ -24,40 +24,41 @@
 
 /*-------------------------Configuracion Geral----------------------------------------*/
 body{
+ 
     background-image: url(assets/crew/background-crew-desktop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    
-
+}
+main{
+    height: 76vh;
 }
 .div__geral > h1 {
     position: absolute;
     left: 10%;
-    top: 10%;
-}
-.div__geral{
-    position: relative;
-    border: 1px solid ;
+    top: 20%;
 }
 .div__img{
     float: right;
     width: 45%;
+    height: 79vh;
     border: 1px solid;
 }
 .div__img > img {
-    margin-top: 30px;
-    width:clamp(400px,80%,500px) 
+    width:clamp(200px,20%,500px) 
 }
 .div__info{
-    margin-top: 150px;
+    float: left;
     border: 1px solid;
-    height: 100%;
-    width: 54%;
+    height: 76vh;
+    width:54%;
 }
 .div__info > .info{
-    width: 70%;
-    margin: auto;
+}
+.div__info > .info p{
+    text-align: justify;
+    line-height: 1.5em;
+    
 }
 .div__info > .info > h2{
     font-style: italic;
@@ -65,7 +66,7 @@ body{
 }
 .info .infoName {
     margin:10px 0;
-    font-size: 4em;
+    font-size:4em;
 }
 .info > p {
     width: 80%;
@@ -74,7 +75,7 @@ body{
 }
 
 .div__button{
-    margin-top: 60px;
+    border: 1px solid;
 }
 .div__button > button{
     width: 10px;
@@ -83,4 +84,8 @@ body{
     border: none;
     margin: 0 5px;
     background-color: rgba(255, 255, 255, 0.441);
+}
+footer{
+    display: none;
+    margin-left: 20%;
 }
