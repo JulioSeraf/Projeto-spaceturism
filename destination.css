@@ -14,13 +14,13 @@ body{
 /* Estilo de Moon */
 
 .div__moon{
-    display:block;
+    display:none;
 }
 
 /* Estilo de Europa */
 
 .div__europa{
-    display:none;
+    display:block;
 }
 
 /*Estilo de Titan*/
