@@ -1,0 +1,111 @@
+@media screen and (max-width:600px) {
+*{
+    margin: o;
+    padding: 0;
+}
+body{
+    background-image:url(assets/home/background-home-mobile.jpg);
+    background-size: cover;
+    width: 97vw;
+    min-height: 98vh;
+    color: white;
+}
+header{
+    height: 10vh;
+}
+header .boloDinamic{
+    padding-top: 10px;
+    margin: 15px 0 0 15px;
+}
+
+nav{
+   position: absolute;
+   width: 97vw;
+   top: -320px;
+   display: flex;
+   flex-direction: column;
+    backdrop-filter:blur(6px);
+   text-align: center;
+}
+nav i {
+    position: absolute;
+    top: 110%;
+    left: 80%;
+}
+nav:hover{
+    position: absolute;
+    top:0%;
+    transition: 1s all;
+
+}
+
+nav > a{
+    text-decoration: none;
+    margin: 30px;
+    color: rgba(255, 255, 255, 0.884);
+}
+nav a > strong {
+    display: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white;
+    color: white;
+}
+main{
+    height: 84vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div__space{
+height: 60%;
+}
+.div__space .space{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.space h2{
+    margin-top: 30px;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.578);
+}
+.space h1{
+    margin: 0;
+    font-size: 5em;
+    font-weight: lighter;
+}
+.space p{
+    color: rgba(255, 255, 255, 0.578);
+}
+.div__explore{
+    display: flex;
+    width: 100%;
+    height: 40%;
+}
+.div__explore > .explore{
+    display: flex;
+    margin: auto;
+    margin-top: 60px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    border: none;
+}
+.explore > p{
+    margin: auto;
+    font-size: 2em;
+}
+footer{
+    color: rgba(255, 255, 255, 0.304);
+    font-size: 0.7em;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+}
