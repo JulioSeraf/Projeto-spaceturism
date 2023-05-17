@@ -1,0 +1,90 @@
+@media screen and (max-width:600px){
+body{
+    background-image:url(assets/destination/background-destination-mobile.jpg);
+    background-size: cover;
+    width: 97vw;
+    min-height: 98vh;
+    color: white;
+}
+main{
+    width: 97vw;
+    text-align: center;
+}
+main h1{
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.778);
+} 
+main h1 > strong{
+    display: none;
+
+}
+.div__img > img{
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.669));
+    width: 200px;
+}
+.div__info > .div__button{
+    margin-top: 20px;
+}
+.div__button > button{
+    cursor: pointer;
+    margin: 0 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid;
+    
+}
+.div__info h2 {
+    margin-top: 30px;
+}
+.div__info > p {
+    text-align:center;
+    padding: 10px 0;
+    margin: auto;
+    width: 90%;
+    color: rgba(255, 255, 255, 0.778);
+}
+.div__info .info-km{
+    width: 45%;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.778);
+}
+.div__info .info-date{
+    width: 45%;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.778);
+}
+.div__info .kmMes{
+    color: white;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/*Estilo de Mars*/
+
+.div__mars{
+    display:none;
+}
+
+/* Estilo de Moon */
+
+.div__moon{
+    display:none;
+}
+
+/* Estilo de Europa */
+
+.div__europa{
+    display:block;
+}
+
+/*Estilo de Titan*/
+
+.div__titan{
+    display: none;
+}
+}

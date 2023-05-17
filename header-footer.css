@@ -1,3 +1,61 @@
+@media screen and (max-width:600px){
+    header{
+        height: 10vh;
+    }
+    header .boloDinamic{
+        padding-top: 10px;
+        margin: 15px 0 0 15px;
+    }
+    
+    nav{
+       position: absolute;
+       width: 97vw;
+       top: -320px;
+       display: flex;
+       flex-direction: column;
+        backdrop-filter:blur(6px);
+       text-align: center;
+       z-index: 1;
+    }
+    nav i {
+        position: absolute;
+        top: 110%;
+        left: 80%;
+    }
+    nav:hover{
+        position: absolute;
+        top:0%;
+        transition: 1s all;
+    
+    }
+    
+    nav > a{
+        text-decoration: none;
+        margin: 30px;
+        color: rgba(255, 255, 255, 0.884);
+    }
+    nav a > strong {
+        display: none;
+    }
+    
+    nav a:hover{
+        border-bottom: 1px solid white;
+        color: white;
+    }
+    /* --------------Estilo de footer--------------- */
+    footer{
+        color: rgba(255, 255, 255, 0.304);
+        font-size: 0.7em;
+        text-align: center;
+    }
+    footer a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+@media screen and (min-width:700px) and (max-width:1400px){
 *{
     margin: 0;
     padding: 0;
@@ -64,7 +122,7 @@ nav a > strong{
     margin: auto;
 }
 
-/* estilo de footer */
+/* -------------estilo de footer---------------- */
 
 footer{
     text-align: center;
@@ -75,4 +133,5 @@ footer{
 footer a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
 }

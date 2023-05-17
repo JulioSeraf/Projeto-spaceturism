@@ -1,3 +1,4 @@
+@media screen and (min-width:700px) and (max-width:1400px){
 body{
     background-image: url(assets/destination/background-destination-desktop.jpg);
     background-size: cover;
@@ -44,6 +45,7 @@ main > h1{
 .div__img > img{
     display: block;
     margin:auto;
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.233));
     width: 400px;
 }
 .div__info{
@@ -90,4 +92,5 @@ main > h1{
 .kmMes{
     padding-top: 5px;
     font-size: 2em;
+}
 }

@@ -3,8 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="header-footer.css">
-  <link rel="stylesheet" href="destination.css">
+  <link rel="stylesheet" media="screen" href="header-footer.css">
+  <link rel="stylesheet" media="screen" href="destination.css">
+  <link rel="stylesheet" media="screen" href="mobile-first-destination.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
   
   <title>Frontend Mentor | Space tourism website</title>
@@ -17,6 +18,10 @@
       <div id="line"></div>
     </div>
     <nav>
+        <i>
+            <svg id="cierre" xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+            <svg id="open" xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+        </i>
         <a href="index.html" target="_self"><strong>00</strong> Home</a>
         <a href="destination.html" target="_self"><strong>01 </strong>Destination</a>
         <a href="crew.html" target="_self"><strong>02 </strong>Crew</a>
@@ -24,7 +29,7 @@
       </nav>
   </header>
   <main>
-    <h1>01 Pick your destination</h1>
+    <h1><strong>01</strong> Pick your destination</h1>
     <!-- MOON -->
     <div class="div__moon div-geral">
         <div class="div__img">
