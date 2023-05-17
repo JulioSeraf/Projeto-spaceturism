@@ -1,0 +1,64 @@
+body{
+    background-image: url(assets/technology/background-technology-mobile.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 99vh;
+    color: white;
+}
+main{
+    text-align: center;
+}
+main > h1{
+    display: inline-block;
+    margin: 20px auto;
+
+}
+.div__tech-button {
+    position: absolute;
+    width:50px;
+    top: 29%;
+    right: 0;
+    display: flex;
+    flex-direction:column;
+    background-color: rgba(128, 128, 128, 0.212);
+    backdrop-filter:blur(10px);
+    border-radius: 20px;
+}
+.div__tech-button  button{
+    margin: 20px 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+
+}
+.div__img img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    max-width:500px;
+}
+.div__info > .p-tech{
+    display: inline-block;
+    margin-top: 20px;
+    padding-right: 100px;
+}
+.div__info > .infoName{
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+.div__info > p{
+    padding: 0 30px;
+    margin: auto;
+}
+
+/* -------------------------Diplays-------------------------- */
+.div__tech1{
+    display:none;
+}
+.div__tech2{
+    display: none;
+}
+.div__tech3{
+    display: block;
+}
