@@ -1,9 +1,10 @@
 @media screen and (max-width:600px){
-    header{
-        height: 10vh;
+    *{
+        margin: 0%;
+        padding: 0%;
     }
     header .boloDinamic{
-        padding-top: 10px;
+        padding-top: 15px;
         margin: 15px 0 0 15px;
     }
     
@@ -46,6 +47,7 @@
     footer{
         color: rgba(255, 255, 255, 0.304);
         font-size: 0.7em;
+        margin-top: 10px;
         text-align: center;
     }
     footer a{
@@ -84,6 +86,9 @@ nav{
     backdrop-filter:blur(6px);
     background-color: rgba(128, 128, 128, 0.084);
     /* background-color: rgba(128, 128, 128, 0.379); */
+}
+nav i{
+    display: none;
 }
 nav > a{
     text-align: center;

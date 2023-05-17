@@ -19,6 +19,7 @@ main h1 > strong{
 
 }
 .div__img > img{
+    margin-top: 30px;
     filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.669));
     width: 200px;
 }
@@ -35,12 +36,13 @@ main h1 > strong{
     
 }
 .div__info h2 {
-    margin-top: 30px;
+    font-size: 1.9em;
+    margin-top: 40px;
 }
 .div__info > p {
     text-align:center;
-    padding: 10px 0;
-    margin: auto;
+    padding: 5px 0;
+    margin: 10px auto;
     width: 90%;
     color: rgba(255, 255, 255, 0.778);
 }
@@ -55,13 +57,14 @@ main h1 > strong{
     width: 45%;
     display: inline-flex;
     flex-direction: column-reverse;
-    margin-top: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
     color: rgba(255, 255, 255, 0.778);
 }
 .div__info .kmMes{
     color: white;
-    margin: 0;
-    font-size: 1.2em;
+    margin:5px 0;
+    font-size: 1.4em;
 }
 
 /*Estilo de Mars*/
@@ -85,6 +88,6 @@ main h1 > strong{
 /*Estilo de Titan*/
 
 .div__titan{
-    display: none;
+    display:none;
 }
 }

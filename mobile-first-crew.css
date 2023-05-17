@@ -1,0 +1,93 @@
+@media screen and (max-width:600px) {
+    body{
+        background-image: url(assets/crew/background-crew-mobile.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: white;
+        width: 100vw;
+        height: 100vh;
+    }
+    .geral{
+        display: flex;
+        flex-direction:column-reverse;
+        text-align: center;
+    }
+    .geral > h1 {
+        position: absolute;
+        width: 90%;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .geral h1 > strong{
+        display: none;
+    }
+    .div__info{
+        height: 40vh;
+        margin-top: 28px;
+    }
+    .div__info .info{
+        margin-top:50px;
+    }
+    .info > h2{
+        margin: 10px 0 ;
+        color: rgba(255, 255, 255, 0.803);
+    }
+    .info .infoName{
+        margin: 8px 0;
+        font-size: 2.5em;
+    }
+    .info > p{
+        padding: 5px 30px;
+        margin: 5px 0;
+        color: rgba(255, 255, 255, 0.803);
+    }
+    .div__img{
+        height: 40vh;
+    }
+    .div__img img{
+        width: 320px;
+        filter: drop-shadow(0 0 50px rgba(255, 255, 255, 0.393));
+    }
+    .div__button{
+        position: absolute;
+        top: 105%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .div__button > button{
+        width: 10px;
+        height: 10px;
+        margin: 0 10px;
+        border-radius: 50%;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.626);
+    }
+    footer{
+        display:none;
+    }
+
+/* diplay comander */
+
+.div__crew-comander{
+    display:none;
+}
+
+/*Display Engineer*/
+
+.div__crew-engineer{
+    display: block;
+}
+
+/*Display Pilot*/
+
+.div__crew-pilot{
+    display: none;
+}
+
+/*Display Specialist*/
+
+.div__crew-specialist{
+    display: none;
+}
+}
