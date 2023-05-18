@@ -1,3 +1,70 @@
 
+@media screen and (min-width:1000px) {
+    *{ 
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        height: 100vh;
+       background-image: url(assets/crew/background-crew-desktop.jpg);
+       background-size:cover;
+       background-position: center bottom;
+    }
+    .div__geral h1{
+        position: absolute;
+        left: 0;
+    }
+    .geral{
+     
+    }
+    .div__info{
+        display: flex;
+        width: 49%;
+        border: 1px solid;
+    }
+    .info .infoName{
+        font-size: 3em;
+    }
 
-/*-------------------------Configuracion Geral---------------------------------------
+    .div__img{ 
+         width: 50%;
+        float: right;
+        border: 1px solid;
+    }
+    .div__img > img{
+        width: 75%;
+        border: 1px solid;
+       
+
+    }
+    footer{
+        display: none;
+    }
+
+
+
+
+/* diplay comander */
+
+.div__crew-comander{
+    display:none;
+}
+
+/*Display Engineer*/
+
+.div__crew-engineer{
+    display: block;
+}
+
+/*Display Pilot*/
+
+.div__crew-pilot{
+    display: none;
+}
+
+/*Display Specialist*/
+
+.div__crew-specialist{
+    display: none;
+}
+}

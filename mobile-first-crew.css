@@ -2,32 +2,24 @@
     body{
         background-image: url(assets/crew/background-crew-mobile.jpg);
         background-size: cover;
+        background-position: center top;
         background-repeat: no-repeat;
         color: white;
         width: 100vw;
-        height: 100vh;
+        height: 98vh;
     }
     .geral{
-        display: flex;
-        flex-direction:column-reverse;
         text-align: center;
-    }
-    .geral > h1 {
-        position: absolute;
-        width: 90%;
-        top: 15%;
-        left: 50%;
-        transform: translate(-50%);
     }
     .geral h1 > strong{
         display: none;
     }
     .div__info{
-        height: 40vh;
         margin-top: 28px;
+
     }
-    .div__info .info{
-        margin-top:50px;
+    .div__info .info{ 
+         width: 100%;
     }
     .info > h2{
         margin: 10px 0 ;
@@ -43,15 +35,15 @@
         color: rgba(255, 255, 255, 0.803);
     }
     .div__img{
-        height: 40vh;
+        margin-top: 20px;
+       box-shadow: 1px 0 10px  rgba(255, 255, 255, 0.968);
     }
     .div__img img{
-        width: 320px;
+        width: clamp(200px, 80%, 400px);
         filter: drop-shadow(0 0 50px rgba(255, 255, 255, 0.393));
     }
     .div__button{
         position: absolute;
-        top: 105%;
         left: 50%;
         transform: translate(-50%);
     }
