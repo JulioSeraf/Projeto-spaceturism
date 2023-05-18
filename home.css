@@ -1,4 +1,25 @@
-@media screen and (min-width:700px) and (max-width:1400px){
+@media screen and (min-width:730px) and (max-width:1000px){
+    body{
+        background-image: url(assets/home/background-home-tablet.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    main{
+        flex-direction: row;
+    }
+    .div__space{
+        height: 97vh;
+    }
+    .space{
+        padding-top: 100px;
+    }
+    .div__explore{
+        height: 97vh;
+    }
+    
+}
+
+@media screen and (min-width:1000px){
 *{
     margin: 0;
     padding: 0;
@@ -28,6 +49,9 @@ nav{
     backdrop-filter:blur(6px);
     background-color: rgba(128, 128, 128, 0.084);
     
+}
+nav i{
+    display: none;
 }
 nav > a{
     text-align: center;

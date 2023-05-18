@@ -1,4 +1,5 @@
-@media screen and (max-width:600px){
+/* --------------------------------------------------Mobile Estilo----------------------------------------------- */
+@media screen and  (max-width:1000px) {
     *{
         margin: 0%;
         padding: 0%;
@@ -9,7 +10,7 @@
     }
     
     nav{
-       position: absolute;
+       position:fixed;
        width: 97vw;
        top: -320px;
        display: flex;
@@ -19,12 +20,12 @@
        z-index: 1;
     }
     nav i {
-        position: absolute;
+        position:absolute;
         top: 110%;
         left: 80%;
     }
     nav:hover{
-        position: absolute;
+        position:fixed;
         top:0%;
         transition: 1s all;
     
@@ -39,7 +40,7 @@
         display: none;
     }
     
-    nav a:hover{
+    nav a:active{
         border-bottom: 1px solid white;
         color: white;
     }
@@ -56,8 +57,9 @@
     }
 }
 
+/* ----------------------------------------------Desktop Estilo-------------------------------------------------- */
 
-@media screen and (min-width:700px) and (max-width:1400px){
+@media screen and (min-width:1001px) {
 *{
     margin: 0;
     padding: 0;

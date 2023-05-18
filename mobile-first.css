@@ -1,4 +1,4 @@
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
 *{
     margin: o;
     padding: 0;
@@ -6,8 +6,9 @@
 body{
     background-image:url(assets/home/background-home-mobile.jpg);
     background-size: cover;
-    width: 97vw;
-    min-height: 98vh;
+    background-position: center ;
+    width: 95vw;
+    min-height: 95vh;
     color: white;
 }
 header{
@@ -19,9 +20,11 @@ header .boloDinamic{
 }
 
 nav{
-   position: absolute;
-   width: 97vw;
+   position: fixed;
+   width: 100%;
    top: -320px;
+   left: 50%;
+   transform: translate(-50%);
    display: flex;
    flex-direction: column;
     backdrop-filter:blur(6px);
@@ -33,7 +36,7 @@ nav i {
     left: 80%;
 }
 nav:hover{
-    position: absolute;
+    position: fixed;
     top:0%;
     transition: 1s all;
 
@@ -53,17 +56,14 @@ nav a:hover{
     color: white;
 }
 main{
-    height: 84vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 .div__space{
-height: 60%;
+    height: 46%;
 }
 .div__space .space{
     text-align: center;
-    width: 90%;
     margin: auto;
 }
 .space h2{
@@ -77,17 +77,17 @@ height: 60%;
     font-weight: lighter;
 }
 .space p{
+    width: 80%;
+    padding-top: 10px;
+    margin: 20px auto;
     color: rgba(255, 255, 255, 0.578);
 }
 .div__explore{
     display: flex;
-    width: 100%;
-    height: 40%;
+    height: 43vh;
 }
 .div__explore > .explore{
-    display: flex;
     margin: auto;
-    margin-top: 60px;
     background-color: white;
     color: black;
     width: 150px;
