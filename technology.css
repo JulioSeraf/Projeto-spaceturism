@@ -3,3 +3,79 @@
         position: sticky;
     }
 }
+@media screen and (min-width:1000px){
+    body{
+        background-image: url(assets/technology/background-technology-desktop.jpg);
+        background-size: cover;
+        height: 100vh;
+        width: 100vw;
+    }
+    main h1{
+        position: absolute;
+        left: 8%;
+        top: 20%;
+    }
+    .div__tech-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left:100px;
+        height: 79vh;
+    }
+    .div__tech-button button{
+        margin: 10px auto;
+        background-color: transparent;
+        color: white;
+        font-size: 1.5em;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        border: 1px solid rgba(255, 255, 255, 0.541);
+
+    }
+    main{
+        display: flex;
+        width: 100vw;
+        height: 77vh;
+    }
+    .div__info{
+        width: 47vw;
+        margin: auto ;
+        margin-left: 100px;
+    }
+    .div__info .p-tech{
+        margin: 10px 0;
+        font-size: 1.2em;
+    }
+    .div__info .infoName{
+        font-size: 4em;
+    }
+    .div__info p{
+        margin: 20px 0;
+        width: 66.5%;
+    }
+    .tech{
+        display:flex;
+        flex-direction: row-reverse;
+        height: 79vh;
+    }
+    .div__img{
+        height: 100%;
+    }
+    .div__img img{
+        margin-top: 50px;
+        float: right;
+        width:clamp(200px,90%,500px);
+    }
+   
+    .div__tech1{
+        display: none;
+    }
+    .div__tech2{
+        display: none;
+    }
+    .div__tech3{
+        display: block;
+    }
+
+}

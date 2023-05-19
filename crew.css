@@ -10,17 +10,18 @@
        background-size:cover;
        background-position: center bottom;
     }
+    main{
+        width: 100vw;
+        height: 80vh;
+    }
     .div__geral h1{
         position: absolute;
         left: 6.9%;
     }
-    .geral{
-     
-    }
     .div__info{
         display: flex;
         width: 49%;
-        height: 77vh;
+        height: 75vh;
     }
     .info{
         margin: auto;
@@ -31,7 +32,7 @@
         margin: 10px 0;
     }
     .info p{
-        margin-top: 20px;
+       margin-top: 20px;
        width: 71%;
        text-align: justify;
     }
@@ -40,11 +41,12 @@
     }
 
     .div__img{ 
+        margin-top: 45px;
         width: 50%;
         float: right;
     }
     .div__img > img{
-        width: 75%;
+        width:clamp(300px, 70%, 500px);
     }
     footer{
         display: none;

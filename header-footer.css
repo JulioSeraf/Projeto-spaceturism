@@ -74,7 +74,7 @@ body{
 }
 header{
     width: 100%;
-    min-height: 20vh;
+    height: 20vh;
 }
 nav{
     display: flex;
@@ -133,7 +133,6 @@ nav a > strong{
 
 footer{
     text-align: center;
-    margin: 5px;
      font-size: 0.8em;
     color: rgba(255, 255, 255, 0.358);
 }
