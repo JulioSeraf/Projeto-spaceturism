@@ -12,7 +12,7 @@
     }
     .div__geral h1{
         position: absolute;
-        left: 0;
+        left: 6.9%;
     }
     .geral{
      
@@ -20,22 +20,31 @@
     .div__info{
         display: flex;
         width: 49%;
-        border: 1px solid;
+        height: 77vh;
+    }
+    .info{
+        margin: auto;
+        padding-left: 100px;
+    }
+    .info h2{
+        font-size: 2em;
+        margin: 10px 0;
+    }
+    .info p{
+        margin-top: 20px;
+       width: 71%;
+       text-align: justify;
     }
     .info .infoName{
-        font-size: 3em;
+        font-size: 4em;
     }
 
     .div__img{ 
-         width: 50%;
+        width: 50%;
         float: right;
-        border: 1px solid;
     }
     .div__img > img{
         width: 75%;
-        border: 1px solid;
-       
-
     }
     footer{
         display: none;
