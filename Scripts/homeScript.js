@@ -1,37 +1,35 @@
-// menu-------------------------------------------------
-const openn = document.getElementById('open');
-const cierre = document.getElementById('cierre');
-const menu = document.getElementsByTagName('nav')[0];
-const explore = document.querySelector('.explore');
-menu.addEventListener('touchend',()=>{
-    cierre.style.display='none';
-    openn.style.display = 'block';
-    menu.style.top = '-320px'});
+// // menu-------------------------------------------------
+// const openn = document.getElementById('open');
+// const cierre = document.getElementById('cierre');
+// const menu = document.getElementsByTagName('nav')[0];
+// const explore = document.querySelector('.explore');
 
-openn.addEventListener('click', ()=>{
-    cierre.style.display = 'block';
-    openn.style.display = 'none';
-    menu.style.top = '0%';
-});
+// cierre.addEventListener('click', ()=>{
+//     cierre.style.display = 'none';
+//     openn.style.display = 'block';
+//     menu.style.top = '-320px';
+// });
 
-explore.addEventListener('click',()=>{
-    if(menu.style.top == '0%'){
-        menu.style.top = '-320px';
-    }else{
-        menu.style.top = '0%';
-        menu.style.transition = '1s all';
-    }
-});
+// openn.addEventListener('click', ()=>{
+//     cierre.style.display = 'block';
+//     openn.style.display = 'none';
+//     menu.style.top = '0%';
+// });
 
-// Destination------------------------------------------
+// explore.addEventListener('click',()=>{
+//     if(menu.style.top == '0%'){
+//         menu.style.top = '-320px';
+//     }else{
+//         menu.style.top = '0%';
+//         menu.style.transition = '1s all';
+//     }
+// });
 
-const moon = document.querySelector('.div__moon');
-const europa = document.querySelector('.div__europa');
-const titan = document.querySelector('.div__titan');
-const mars = document.querySelector('.div__mars');
-const butMars = document.getElementById('imars');
-const butMoon = document.getElementById('imoon');
-const butEuropa = document.getElementById('ieuropa');
-const butTitan = document.getElementById('ititan');
+let bts = document.querySelectorAll('.bts');
 
-moon.addEventListener()
+for(var i = 0; i < bts.length; i++){
+    bts[i].addEventListener('click', ()=>{
+    })
+}
+
+
