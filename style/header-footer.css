@@ -18,17 +18,18 @@
         backdrop-filter:blur(6px);
        text-align: center;
        z-index: 1;
+       transition: 1s all;
     }
     nav i {
         position:absolute;
         top: 110%;
         left: 80%;
     }
-    nav:hover{
-        position:fixed;
-        top:0%;
-        transition: 1s all;
-    
+    nav #cierre{
+        display: none;
+    }
+    nav #open{
+        display: block;
     }
     
     nav > a{
@@ -67,7 +68,7 @@
 body{
     min-width: 100vw;
     color: white;
-    background-image: url(assets/home/background-home-desktop.jpg);
+    background-image: url(/assets/home/background-home-desktop.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

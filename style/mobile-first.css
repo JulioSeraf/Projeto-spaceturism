@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-image:url(assets/home/background-home-mobile.jpg);
+    background-image:url(/assets/home/background-home-mobile.jpg);
     background-size: cover;
     background-position: center ;
     width: 95vw;
@@ -29,6 +29,12 @@ nav{
    flex-direction: column;
     backdrop-filter:blur(6px);
    text-align: center;
+}
+nav #cierre{
+    display: none;
+}
+nav #open{
+    display: block;
 }
 nav i {
     position: absolute;

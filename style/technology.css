@@ -5,7 +5,7 @@
 }
 @media screen and (min-width:1000px){
     body{
-        background-image: url(assets/technology/background-technology-desktop.jpg);
+        background-image: url(/assets/technology/background-technology-desktop.jpg);
         background-size: cover;
         height: 100vh;
         width: 100vw;
