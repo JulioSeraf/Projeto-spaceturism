@@ -2,7 +2,6 @@
 const menu = document.getElementsByTagName('nav')[0];
 const cierre = document.getElementById('cierre');
 const openn = document.getElementById('open');
-const explore = document.querySelector('.explore');
 cierre.addEventListener('click', ()=>{
     cierre.style.display = 'none';
     openn.style.display = 'block';
@@ -15,12 +14,9 @@ openn.addEventListener('click', ()=>{
     menu.style.top = '0%';
 });
 
-explore.addEventListener('click',()=>{
-    if(menu.style.top == '0%'){
-        menu.style.top = '-320px';
-    }else{
-        menu.style.top = '0%';
-        menu.style.transition = '1s all';
-    }
-});
+function explore(){
+    const explore = document.querySelector('.explore');
+    explore.style.transition = '1s all'
+
+}
 
