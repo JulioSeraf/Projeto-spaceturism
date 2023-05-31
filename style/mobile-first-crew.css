@@ -36,7 +36,8 @@
     }
     .div__img{
         margin-top: 20px;
-        box-shadow:  1px  0 10px rgba(255, 255, 255, 0.505);
+        border-bottom: 1px solid white;
+        /* box-shadow:  1px  0 10px rgba(255, 255, 255, 0.505); */
     }
     .div__img #imgSpecial{
         width: clamp(200px, 60%, 400px);
