@@ -36,16 +36,18 @@
     }
     .div__img{
         margin-top: 20px;
-       box-shadow: 1px 0 10px  rgba(255, 255, 255, 0.968);
+        box-shadow:  1px  0 10px rgba(255, 255, 255, 0.505);
     }
     .div__img img{
-        width: clamp(200px, 80%, 400px);
+        width: clamp(200px, 60%, 400px);
         filter: drop-shadow(0 0 50px rgba(255, 255, 255, 0.393));
     }
     .div__button{
         position: absolute;
         left: 50%;
+        bottom: 0%;
         transform: translate(-50%);
+        z-index: 3;
     }
     .div__button > button{
         width: 10px;
@@ -54,6 +56,21 @@
         border-radius: 50%;
         border: none;
         background-color: rgba(255, 255, 255, 0.626);
+    }
+    .cursout{
+        position: absolute;
+        top: 0%;
+        background-color: white;
+        width:20%;
+        min-height: 100vh;
+        opacity: 0.1;
+        z-index: 2;
+    }
+    .outLeft{
+        left: 0%;
+    }
+    .outRigth{
+        right: 0%;
     }
     footer{
         display:none;
@@ -74,12 +91,12 @@
 /*Display Pilot*/
 
 .div__crew-pilot{
-    display: none;
+    display:none;
 }
 
 /*Display Specialist*/
 
 .div__crew-specialist{
-    display: none;
+    display:none;
 }
 }
