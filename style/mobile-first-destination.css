@@ -14,16 +14,7 @@ main h1{
     font-size: 1.5em;
     color: rgba(255, 255, 255, 0.778);
 } 
-main h1 > strong{
-    display: none;
-
-}
-.div__img > img{
-    margin-top: 30px;
-    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.669));
-    width: 200px;
-}
-.div__info > .div__button{
+.div__button{
     margin-top: 20px;
 }
 .div__button > button{
@@ -32,8 +23,17 @@ main h1 > strong{
     background-color: transparent;
     color: white;
     border: none;
-    border-bottom: 1px solid;
     
+    
+}
+main h1 > strong{
+    display: none;
+
+}
+.div__img > img{
+    margin-top: 30px;
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.669));
+    width: 200px;
 }
 .div__info h2 {
     font-size: 1.9em;
@@ -68,7 +68,6 @@ main h1 > strong{
 }
 
 /*Estilo de Mars*/
-
 .div__mars{
     display:none;
 }

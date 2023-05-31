@@ -30,18 +30,18 @@
   </header>
   <main>
     <h1><strong>01</strong> Pick your destination</h1>
+    <div class="div__button">
+        <button  class="telas" id="imoon" >Moon</button>
+        <button  class="telas" id="imars" >Mars</button>
+        <button  class="telas" id="ieuropa">Europa</button>
+        <button  class="telas" id="ititan" >Titan</button>
+    </div>
     <!-- MOON -->
     <div id="divmoon" class="div__moon div-geral">
         <div class="div__img">
             <img src="assets/destination/image-moon.png" alt="">
         </div>
         <div class="div__info">
-            <div class="div__button">
-                <button  class="telas" id="imoon">Moon</button>
-                <button  class="telas" id="imars">Mars</button>
-                <button  class="telas" id="ieuropa">Europa</button>
-                <button  class="telas" id="ititan">Titan</button>
-            </div>
             <h2>Moon</h2>
             <p>
                 See our planet as you’ve never seen it before. A perfect relaxing trip away to help
@@ -65,12 +65,6 @@
              <img src="assets/destination/image-mars.png" alt="">
         </div>
         <div class="div__info">
-            <div class="div__button">
-                <button  class="telas"  id="imoon">Moon</button>
-                <button  class="telas"  id="imars">Mars</button>
-                <button  class="telas" id="ieuropa">Europa</button>
-                <button  class="telas" id="ititan">Titan</button>
-            </div>
             <h2>Mars</h2>     
             <p>
                 Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons,
@@ -94,12 +88,6 @@
             <img src="assets/destination/image-europa.png" alt="">
         </div>
         <div class="div__info">
-            <div class="div__button">
-                <button  class="telas" onclick="moonDiplay()" id="imoon">Moon</button>
-                <button  class="telas"  id="imars">Mars</button>
-                <button  class="telas"  id="ieuropa">Europa</button>
-                <button  class="telas"  id="ititan">Titan</button>
-            </div>
             <h2>Europa</h2>
             <p>
                 The smallest of the four Galilean moons orbiting Jupiter, Europa is a
@@ -124,12 +112,6 @@
             <img src="assets/destination/image-titan.png" alt="">
         </div>
         <div class="div__info">
-            <div class="div__button">
-                <button  class="telas" id="imoon" value="1">Moon</button>
-                <button  class="telas"  id="imars" value="2">Mars</button>
-                <button  class="telas"   id="ieuropa" value="3">Europa</button>
-                <button  class="telas"  id="ititan" valu="4">Titan</button>
-            </div>
             <h2>Titan</h2>
             <p>
                 The only moon known to have a dense atmosphere other than Earth, Titan
@@ -152,6 +134,7 @@
     <p>Hecho por <a href="https://github.com/JulioSeraf" target="_blank">Julio Serafim</a>, Projeto de <a href="https://www.frontendmentor.io/profile/JulioSeraf" target="_blank">Frot End Mentor</a></p>
   </footer>
   <script src="Scripts/homeScript.js"></script>
-  <script src="Scripts/destinationScript.js"></script>
+ <script src="Scripts/destinationScript.js"></script>
+  
 </body>
 </html>

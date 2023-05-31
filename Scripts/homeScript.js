@@ -1,7 +1,7 @@
 // menu-------------------------------------------------
 const menu = document.getElementsByTagName('nav')[0];
 const cierre = document.getElementById('cierre');
-const openn = document.getElementById('open');
+const openn = document.getElementById('open');    
 cierre.addEventListener('click', ()=>{
     cierre.style.display = 'none';
     openn.style.display = 'block';
@@ -17,6 +17,9 @@ openn.addEventListener('click', ()=>{
 function explore(){
     const explore = document.querySelector('.explore');
     explore.style.transition = '1s all'
-
 }
+
+
+
+
 
