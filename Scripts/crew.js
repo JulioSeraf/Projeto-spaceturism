@@ -15,18 +15,26 @@ document.addEventListener('DOMContentLoaded',function(){
         case 'icomander':
             diplayNone();
             document.getElementById('divComander').style.display = 'block';
+            document.querySelectorAll('.but').forEach((bts) => bts.style.backgroundColor = '');
+            document.getElementById('icomander').style.backgroundColor = 'white';
             break;
         case 'ienginner':
             diplayNone();
             document.getElementById('divEnginner').style.display = 'block';
+            document.querySelectorAll('.but').forEach((bts) => bts.style.backgroundColor = '');
+            document.getElementById('ienginner').style.backgroundColor = 'white';
             break;
         case 'ipilot':
             diplayNone();
             document.getElementById('divPilot').style.display = 'block';
+            document.querySelectorAll('.but').forEach((bts) => bts.style.backgroundColor = '');
+            document.getElementById('ipilot').style.backgroundColor = 'white';
             break;
         case 'ispecial':
             diplayNone();
             document.getElementById('divSpecial').style.display = 'block';
+            document.querySelectorAll('.but').forEach((bts) => bts.style.backgroundColor = '');
+            document.getElementById('ispacial').style.backgroundColor = 'white';
             break;
         default:
             alert('[ERROR], Carrege la pagina novamente!!')
