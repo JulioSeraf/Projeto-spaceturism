@@ -26,6 +26,7 @@ main > h1{
     border-radius: 20px;
 }
 .div__tech-button  button{
+    cursor: pointer;
     margin: 20px 10px;
     width: 30px;
     height: 30px;

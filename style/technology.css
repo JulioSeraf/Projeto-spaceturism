@@ -23,6 +23,7 @@
         height: 79vh;
     }
     .div__tech-button button{
+        cursor: pointer;
         margin: 10px auto;
         background-color: transparent;
         color: white;
