@@ -1,13 +1,12 @@
 document.addEventListener('DOMContentLoaded',function(){
  const butoes = document.querySelectorAll('.but');
  for(var i in butoes){
-    butoes[i].addEventListener('click', diplayeTel);
+    butoes[i].addEventListener('click',diplayeTel);
  }
 
  function diplayNone(){
     document.querySelectorAll('.div__geral').forEach((item) => item.style.display = 'none')
  }
-
 
  function diplayeTel(e){
     var btValor = e.target.id;
@@ -34,7 +33,7 @@ document.addEventListener('DOMContentLoaded',function(){
             diplayNone();
             document.getElementById('divSpecial').style.display = 'block';
             document.querySelectorAll('.but').forEach((bts) => bts.style.backgroundColor = '');
-            document.getElementById('ispacial').style.backgroundColor = 'white';
+            document.getElementById('ispecial').style.backgroundColor = 'white';
             break;
         default:
             alert('[ERROR], Carrege la pagina novamente!!')
