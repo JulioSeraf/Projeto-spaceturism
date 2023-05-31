@@ -6,12 +6,13 @@
     }
     body{
        height: 100vh;
+       min-width: 97vw;
        background-image: url(/assets/crew/background-crew-desktop.jpg);
        background-size:cover;
        background-position: center bottom;
     }
     main{
-        width: 100vw;
+        width: 97vw;
         height: 80vh;
     }
     .div__geral h1{
@@ -41,17 +42,31 @@
     }
 
     .div__img{ 
-        margin-top: 45px;
+        /* margin-top: 45px; */
         width: 50%;
         float: right;
     }
-    .div__img > img{
+    .div__img > #imgEnginner{
+        margin-top: 57px;
         width:clamp(300px, 70%, 500px);
+    }
+    .div__img > #imgComander{
+        margin: 0.5px;
+        width:clamp(300px, 60.5%, 500px);
+    }
+    .div__img > #imgSpecial{
+        margin-top: 10px;
+        width:clamp(300px, 55%, 500px);
+    }
+    .div__img #imgPilot{
+        margin-top: 4px;
+        width:clamp(300px, 70%, 500px);
+
     }
     .div__button{
         position: absolute;
-        top: 85%;
-        left: 15%;
+        left: 10%;
+        top: 90%;
     }
     .div__button > button{
         cursor: pointer;
