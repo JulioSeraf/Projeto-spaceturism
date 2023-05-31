@@ -27,7 +27,7 @@
     }
     .info .infoName{
         margin: 8px 0;
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .info > p{
         padding: 5px 30px;
@@ -43,26 +43,30 @@
         filter: drop-shadow(0 0 50px rgba(255, 255, 255, 0.393));
     }
     .div__button{
-        position: absolute;
-        left: 50%;
-        bottom: 0%;
+        position: fixed;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 30px;
+        left: 10%;
+        bottom: 40%;
         transform: translate(-50%);
         z-index: 3;
     }
     .div__button > button{
-        width: 10px;
-        height: 10px;
-        margin: 0 10px;
+        margin: 10px 0;
+        width: 15px;
+        height: 15px;
         border-radius: 50%;
         border: none;
-        background-color: rgba(255, 255, 255, 0.626);
+        background-color: rgba(255, 255, 255, 0.427);
     }
     .cursout{
-        position: absolute;
+        position: fixed;
         top: 0%;
         background-color: white;
         width:20%;
-        min-height: 100vh;
+        height: 100%;
         opacity: 0.1;
         z-index: 2;
     }
@@ -85,7 +89,7 @@
 /*Display Engineer*/
 
 .div__crew-engineer{
-    display: block;
+    display:none;
 }
 
 /*Display Pilot*/
@@ -97,6 +101,11 @@
 /*Display Specialist*/
 
 .div__crew-specialist{
-    display:none;
+    display:block;
 }
+}
+@media screen and (min-width:450px) {
+    .div__button{
+        bottom: 15%;
+    }
 }
