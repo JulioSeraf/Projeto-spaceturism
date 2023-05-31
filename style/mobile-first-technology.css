@@ -17,8 +17,8 @@ main > h1{
 .div__tech-button {
     position:absolute;
     width:50px;
-    top: 20%;
-    right: 0;
+    top: 30%;
+    left: 0;
     display: flex;
     flex-direction:column;
     background-color: rgba(128, 128, 128, 0.212);
@@ -31,6 +31,8 @@ main > h1{
     height: 30px;
     border-radius: 50%;
     border: none;
+    background-color: rgba(255, 255, 255, 0.381);
+    color: white;
 
 }
 .div__img img {
@@ -55,12 +57,12 @@ main > h1{
 
 /* -------------------------Diplays-------------------------- */
 .div__tech1{
-    display:none;
+    display:block;
 }
 .div__tech2{
     display: none;
 }
 .div__tech3{
-    display: block;
+    display: none;
 }
 }
