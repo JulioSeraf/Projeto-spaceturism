@@ -14,11 +14,6 @@ openn.addEventListener('click', ()=>{
     menu.style.top = '0%';
 });
 
-function explore(){
-    const explore = document.querySelector('.explore');
-    explore.style.transition = '1s all'
-}
-
 
 
 
