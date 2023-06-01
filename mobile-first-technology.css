@@ -1,6 +1,6 @@
 @media screen and (max-width:1000px) {
 body{
-    background-image: url(/assets/technology/background-technology-mobile.jpg);
+    background-image: url(./assets/technology/background-technology-mobile.jpg);
     background-size: cover;
     width: 100vw;
     height: 99vh;
